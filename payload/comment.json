@@ -1,0 +1,182 @@
+{
+    "object_kind": "note",
+    "event_type": "note",
+    "user":
+    {
+        "id": 4,
+        "name": "bob",
+        "username": "bob",
+        "avatar_url": "https://www.gravatar.com/avatar/5f66f0b4310a72b0461a83c27175119f?s=80&d=identicon",
+        "email": "[REDACTED]"
+    },
+    "project_id": 2,
+    "project":
+    {
+        "id": 2,
+        "name": "demo",
+        "description": "desc",
+        "web_url": "http://7e1c31cc3861/bob/demo",
+        "avatar_url": null,
+        "git_ssh_url": "git@7e1c31cc3861:bob/demo.git",
+        "git_http_url": "http://7e1c31cc3861/bob/demo.git",
+        "namespace": "bob",
+        "visibility_level": 0,
+        "path_with_namespace": "bob/demo",
+        "default_branch": "main",
+        "ci_config_path": null,
+        "homepage": "http://7e1c31cc3861/bob/demo",
+        "url": "git@7e1c31cc3861:bob/demo.git",
+        "ssh_url": "git@7e1c31cc3861:bob/demo.git",
+        "http_url": "http://7e1c31cc3861/bob/demo.git"
+    },
+    "object_attributes":
+    {
+        "attachment": null,
+        "author_id": 4,
+        "change_position": null,
+        "commit_id": null,
+        "created_at": "2023-03-29 12:38:19 UTC",
+        "discussion_id": "7c93ff797a96cc5f4612e9e887278ec5efa29a0a",
+        "id": 6,
+        "line_code": null,
+        "note": "good",
+        "noteable_id": 2,
+        "noteable_type": "MergeRequest",
+        "original_position": null,
+        "position": null,
+        "project_id": 2,
+        "resolved_at": null,
+        "resolved_by_id": null,
+        "resolved_by_push": null,
+        "st_diff": null,
+        "system": false,
+        "type": null,
+        "updated_at": "2023-03-29 12:38:19 UTC",
+        "updated_by_id": null,
+        "description": "good",
+        "url": "http://7e1c31cc3861/bob/demo/-/merge_requests/2#note_6"
+    },
+    "repository":
+    {
+        "name": "demo",
+        "url": "git@7e1c31cc3861:bob/demo.git",
+        "description": "desc",
+        "homepage": "http://7e1c31cc3861/bob/demo"
+    },
+    "merge_request":
+    {
+        "assignee_id": 4,
+        "author_id": 4,
+        "created_at": "2023-03-29 12:36:13 UTC",
+        "description": "",
+        "head_pipeline_id": null,
+        "id": 2,
+        "iid": 2,
+        "last_edited_at": null,
+        "last_edited_by_id": null,
+        "merge_commit_sha": null,
+        "merge_error": null,
+        "merge_params":
+        {
+            "force_remove_source_branch": "1"
+        },
+        "merge_status": "can_be_merged",
+        "merge_user_id": null,
+        "merge_when_pipeline_succeeds": false,
+        "milestone_id": null,
+        "source_branch": "feature/f2",
+        "source_project_id": 2,
+        "state_id": 1,
+        "target_branch": "main",
+        "target_project_id": 2,
+        "time_estimate": 0,
+        "title": "Feature/f2",
+        "updated_at": "2023-03-29 12:38:19 UTC",
+        "updated_by_id": null,
+        "url": "http://7e1c31cc3861/bob/demo/-/merge_requests/2",
+        "source":
+        {
+            "id": 2,
+            "name": "demo",
+            "description": "desc",
+            "web_url": "http://7e1c31cc3861/bob/demo",
+            "avatar_url": null,
+            "git_ssh_url": "git@7e1c31cc3861:bob/demo.git",
+            "git_http_url": "http://7e1c31cc3861/bob/demo.git",
+            "namespace": "bob",
+            "visibility_level": 0,
+            "path_with_namespace": "bob/demo",
+            "default_branch": "main",
+            "ci_config_path": null,
+            "homepage": "http://7e1c31cc3861/bob/demo",
+            "url": "git@7e1c31cc3861:bob/demo.git",
+            "ssh_url": "git@7e1c31cc3861:bob/demo.git",
+            "http_url": "http://7e1c31cc3861/bob/demo.git"
+        },
+        "target":
+        {
+            "id": 2,
+            "name": "demo",
+            "description": "desc",
+            "web_url": "http://7e1c31cc3861/bob/demo",
+            "avatar_url": null,
+            "git_ssh_url": "git@7e1c31cc3861:bob/demo.git",
+            "git_http_url": "http://7e1c31cc3861/bob/demo.git",
+            "namespace": "bob",
+            "visibility_level": 0,
+            "path_with_namespace": "bob/demo",
+            "default_branch": "main",
+            "ci_config_path": null,
+            "homepage": "http://7e1c31cc3861/bob/demo",
+            "url": "git@7e1c31cc3861:bob/demo.git",
+            "ssh_url": "git@7e1c31cc3861:bob/demo.git",
+            "http_url": "http://7e1c31cc3861/bob/demo.git"
+        },
+        "last_commit":
+        {
+            "id": "d93f1ea9e8221ffd30a972535e31ed207b0f95f7",
+            "message": "add bn",
+            "title": "add b",
+            "timestamp": "2023-03-29T20:34:40+08:00",
+            "url": "http://7e1c31cc3861/bob/demo/-/commit/d93f1ea9e8221ffd30a972535e31ed207b0f95f7",
+            "author":
+            {
+                "name": "shayanbo",
+                "email": "shayanbo@bilibili.com"
+            }
+        },
+        "work_in_progress": false,
+        "total_time_spent": 0,
+        "time_change": 0,
+        "human_total_time_spent": null,
+        "human_time_change": null,
+        "human_time_estimate": null,
+        "assignee_ids":
+        [
+            4
+        ],
+        "reviewer_ids":
+        [
+            4
+        ],
+        "labels":
+        [
+            {
+                "id": 1,
+                "title": "test",
+                "color": "#808080",
+                "project_id": 2,
+                "created_at": "2023-03-29 12:24:11 UTC",
+                "updated_at": "2023-03-29 12:24:11 UTC",
+                "template": false,
+                "description": null,
+                "type": "ProjectLabel",
+                "group_id": null
+            }
+        ],
+        "state": "opened",
+        "blocking_discussions_resolved": true,
+        "first_contribution": false,
+        "detailed_merge_status": "mergeable"
+    }
+}
